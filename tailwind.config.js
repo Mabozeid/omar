@@ -13,7 +13,7 @@ module.exports = {
       'sans': ["Raleway", "sans-serif"],
     },
     backgroundImage: {
-      'hero-pic': "url('/public/nathan-anderson-FHiJWoBodrs-unsplash.jpg')",
+      'hero-pic': "url('/public/monia-g-CYh-VDg9c8A-unsplash.jpg')",
     }
   },
   },

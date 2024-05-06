@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <NavBar />
+        <Navbartwo />
     </div>
 
 

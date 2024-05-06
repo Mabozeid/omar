@@ -2,9 +2,14 @@
     <footer class="bg-gray-100">
       <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="flex justify-center text-teal-600">
-          <a class="block text-sky-600" href="#">
-            <h2 class="text-2xl font-bold leading-7 text-sky-900 sm:truncate sm:text-3xl sm:tracking-tight lg:tracking-widest font-sans">OMAR</h2>
-        </a>
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img
+          src="/public/android-chrome-192x192.png"
+          alt=""
+          class="size-12 rounded-lg inline-block"
+          />
+        <span class="self-center text-2xl font-bold whitespace-nowrap  text-2xl font-bold leading-7 text-sky-900 sm:truncate sm:text-3xl sm:tracking-tight lg:tracking-widest font-sans inline-block leading-10	">OMAR</span>
+    </a>
         </div>
     
         <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
@@ -14,28 +19,22 @@
     
         <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
+        <a href="#" class="block py-2 px-3 md:p-0 text-white  rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500" aria-current="page">Home</a>
           </li>
     
           <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Autism Treatment </a>
-          </li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Egypt Travel</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Egypt day Tours</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Egypt Nile cruises</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Why Us?</a>
+      </li>
     
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Therapy & Services </a>
-          </li>
-    
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Our Team  </a>
-          </li>
-    
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Contact Us </a>
-          </li>
-    
-          <li>
-            <a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Donate</a>
-          </li>
         </ul>
     
         <ul class="mt-12 flex justify-center gap-6 md:gap-8">

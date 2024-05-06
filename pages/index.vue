@@ -1,24 +1,12 @@
 <template>
-    <header class="bg-slate-50 h-svh bg-[url('/public/nathan-anderson-FHiJWoBodrs-unsplash.jpg')] hero-img relative">
+    <header class="bg-slate-50 h-svh bg-[url('/public/monia-g-CYh-VDg9c8A-unsplash.jpg')] hero-img relative">
       <div class="overlay"></div>
-      <div class="h-full w-full p-8 md:p-12 lg:px-16 lg:py-24 z-50 relative place-content-center">
+      <div class="h-full w-full p-8 md:p-12 lg:px-16 lg:py-24 z-10 relative place-content-center">
       <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-        <h2 class="text-6xl font-bold text-white  md:text-4xl  tracking-wide	">
-          We Never Turn a Child Down.
+        <h2 class="text-5xl font-bold text-white leading-normal	 tracking-wide	uppercase lg:tracking-widest w-full">
+          Engoy Your Egypt 
+           Vacation With US
         </h2>
-  
-        <p class="hidden text-black  md:mt-4 md:block">
-          If you have a child with autism spectrum disorder (ASD), or if you think your child might have ASD, Atlanta Autism Center is here to help.
-        </p>
-  
-        <div class="mt-4 md:mt-8">
-          <a
-            href="#"
-            class="inline-block rounded bg-sky-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-sky-700 focus:outline-none focus:ring focus:ring-yellow-400"
-          >
-            Get Started Today
-          </a>
-        </div>
       </div>
     </div>
   
@@ -28,7 +16,19 @@
       class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
     /> -->
     </header>
+
     <About />
+
+    <Tours />
+
+    <Masonry />
+
+<Testimonials />
+  
+  
+
+    <!-- <Testimonials /> -->
+    
   </template>
 
 <script setup>
@@ -54,6 +54,7 @@
   height: 100%;
   opacity: 0.5;
   z-index: 10;
-  background: rgb(160 220 255);
+  background: #3333339e;
 }
+
 </style>

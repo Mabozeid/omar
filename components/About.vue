@@ -1,6 +1,6 @@
 <template>
 <section>
-  <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="fade-up">
     <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div class="relative z-10 lg:py-16">
         <div class="relative h-64 sm:h-80 lg:h-full">
@@ -30,9 +30,9 @@
 
           <a
             href="#"
-            class="mt-8 inline-block rounded border border-indigo-600 bg-sky-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+            class="mt-8 inline-block rounded border border-sky-600 bg-sky-900 px-12 py-3 text-sm font-medium text-white hover:bg-white hover:text-sky-900 focus:outline-none focus:ring active:text-sky-500 lg:tracking-widest button-effect"
           >
-            Get in Touch
+            Read More
           </a>
         </div>
       </div>
@@ -46,5 +46,62 @@
 </script>
 
 <style  scoped>
+.button-effect {
+  overflow: hidden;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  min-width: 150px;
+  height: 50px;
+  display: inline-block;
+  border: none;
+  background: #0C4A6E;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  cursor: pointer;
+}
 
+.button-effect::before,
+.button-effect::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+.button-effect::before {
+  background: #93b5ea;
+}
+.button-effect::after {
+  background: #FDBA74;
+}
+
+.button-effect:hover::before,
+.button-effect:hover::after {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.button-effect:hover::after {
+  -webkit-transition-delay: 0.175s;
+  -o-transition-delay: 0.175s;
+  transition-delay: 0.175s;
+}
 </style>
