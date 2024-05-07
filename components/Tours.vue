@@ -1,8 +1,8 @@
 <template>
 
-    <section>
+    <section class="tourMain bg-gray-50" data-aos="fade-up-left">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
-      <header class="text-center py-8 ">
+      <header class="text-center py-6 ">
         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Tour  Recomendation</h2>
   
         <p class="mx-auto mt-4 max-w-md text-gray-500">

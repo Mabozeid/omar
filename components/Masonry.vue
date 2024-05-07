@@ -1,5 +1,14 @@
 <template>
-<div>
+<div class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="fade-up">
+    <header class="text-center pt-6">
+            <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Our  Trip</h2>
+    
+            <p class="mx-auto mt-4 max-w-md text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque praesentium cumque iure
+            dicta incidunt est ipsam, officia dolor fugit natus?
+            </p>
+        </header>
+
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4 py-16 sm:px-6 lg:px-8">
         <div class="grid gap-4">
             <div>

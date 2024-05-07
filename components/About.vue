@@ -1,6 +1,6 @@
 <template>
 <section>
-  <div class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="fade-up">
+  <div class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="zoom-in">
     <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div class="relative z-10 lg:py-16">
         <div class="relative h-64 sm:h-80 lg:h-full">
