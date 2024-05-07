@@ -13,50 +13,129 @@
         <div class="grid gap-4">
             <div>
                 
-                <div>
+                <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
                </div>
 
             </div>
-            <div>
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-            </div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
         </div>
+
         <div class="grid gap-4">
-            <div>
+
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-            </div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
         </div>
+
         <div class="grid gap-4">
-            <div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
-            </div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
         </div>
+
         <div class="grid gap-4">
-            <div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-            </div>
-            <div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-            </div>
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Travel Item
+                    </span>
+                </div>
+               </div>
         </div>
     </div>
 </div>
@@ -69,5 +148,30 @@
 </script>
 
 <style scoped>
+.capMasory {
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(178deg, transparent, #1e22567d);
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+    transform: translateY(200%);
+    
+}
+.masnoryTitle {
+    background: #fff;
+    height: 50px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 10px;
+}
 
+.masnoryItem:hover .capMasory{
+
+    transform: translateY(0);
+}
 </style>
