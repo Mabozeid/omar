@@ -5,7 +5,7 @@
       <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
         <h2 class="text-5xl font-bold text-white leading-normal	 tracking-wide	uppercase lg:tracking-widest w-full">
           Engoy Your Egypt 
-           Vacation With US
+           Vacation With US   
         </h2>
       </div>
     </div>

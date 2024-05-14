@@ -1,6 +1,6 @@
 <template>
 
-    <section class="tourMain bg-gray-50 py-8 " data-aos="fade-up-left">
+    <section id="tours" class="tourMain bg-gray-50 py-8 " data-aos="fade-up-left">
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
       <header class="text-center py-8 ">
         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Tour  Recomendation</h2>
@@ -18,7 +18,7 @@
     <div class="relative overflow-hidden">
       <img
       alt=""
-      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      src="https://arid-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fpackages%2Fp1-4.webp&w=828&q=75"
       class="h-auto w-full object-cover"
       />
     </div>
@@ -32,7 +32,7 @@
 <div class="p-4 sm:p-6">
 <a href="#">
   <h3 class="text-lg font-medium text-gray-900">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Grand Egyption Mouseum Trail phase Tour
   </h3>
 </a>
 
@@ -43,13 +43,19 @@
   dignissimos. Molestias explicabo corporis voluptatem?
 </p>
 
-<a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
-  Find out more
+<div class="grid grid-cols-1 divide-y bg-slate-50	my-4 mb-0 px-4 py-2">
+      <div class="pb-2 ">
+        <p class="mt-2 max-w-sm text-gray-700">
+          <i class="fa-solid fa-location-dot px-2 text-sky-900"> </i> Egypt Day Tours, Cairo Days Tours
+      </p>
 
-  <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
-    &rarr;
-  </span>
-</a>
+      </div>
+      <div> 
+        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl  text-sm text-sky-900"> strating From :1200 USD</h3>
+      </div>
+
+</div>
+
 </div>
 </article>
 </div>
@@ -59,21 +65,21 @@
     <div class="relative overflow-hidden">
       <img
       alt=""
-      src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      src="https://arid-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fpackages%2Fp1-6.webp&w=828&q=75"
       class="h-auto w-full object-cover"
       />
     </div>
 
 
 <div class="p-date">
-     <span class="day">1 Feb</span>
-      <span class="month">2015</span>
+     <span class="day">7 mar</span>
+      <span class="month">2020</span>
  </div>
 <div class="p-4 sm:p-6 ">
   
 <a href="#">
   <h3 class="text-lg font-medium text-gray-900">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   8 Days Luxor Expolration
   </h3>
 </a>
 
@@ -84,13 +90,19 @@
   dignissimos. Molestias explicabo corporis voluptatem?
 </p>
 
-<a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
-  Find out more
+<div class="grid grid-cols-1 divide-y bg-slate-50	my-4 mb-0 px-4 py-2">
+      <div class="pb-2 ">
+        <p class="mt-2 max-w-sm text-gray-700">
+          <i class="fa-solid fa-location-dot px-2 text-sky-900"> </i> Egypt Nile Cruises, Dahaybya Nile Cruise
+      </p>
 
-  <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
-    &rarr;
-  </span>
-</a>
+      </div>
+      <div> 
+        <p class="pt-2"><i class="fa-solid fa-clock text-sky-900 "></i> 8 Days/ 7 Nights </p>
+        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl  text-sm text-sky-900">strating From :1200 USD</h3>
+      </div>
+
+</div>
 </div>
 </article>
 </div>
@@ -99,20 +111,20 @@
 <div class="relative overflow-hidden">
   <img
 alt=""
-src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+src="https://arid-next.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fpackages%2Fp1-9.webp&w=828&q=75"
 class="h-auto w-full object-cover hover:h-56"
 />
 </div>
 
 <div class="p-date">
-     <span class="day">1 Feb</span>
-      <span class="month">2015</span>
+     <span class="day">15 jan</span>
+      <span class="month">207</span>
  </div>
 
 <div class="p-4 sm:p-6">
 <a href="#">
   <h3 class="text-lg font-medium text-gray-900">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    5 Days Luxor to aswan Nile Cruise
   </h3>
 </a>
 
@@ -123,13 +135,20 @@ class="h-auto w-full object-cover hover:h-56"
   dignissimos. Molestias explicabo corporis voluptatem?
 </p>
 
-<a href="#" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
-  Find out more
+  <div class="grid grid-cols-1 divide-y bg-slate-50	my-4 mb-0 px-4 py-2">
+      <div class="pb-2 ">
+        <p class="mt-2 max-w-sm text-gray-700">
+          <i class="fa-solid fa-location-dot px-2 text-sky-900"> </i> Egypt Nile Cruises, Dahaybya Nile Cruise
+      </p>
 
-  <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
-    &rarr;
-  </span>
-</a>
+      </div>
+      <div> 
+        <p class="pt-2"><i class="fa-solid fa-clock text-sky-900"> </i> 5 Days / 4 Nights</p>
+        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl  text-sm text-sky-900">strating From :1200 USD</h3>
+      </div>
+
+</div>
+
 </div>
 </article>
 </div>

@@ -1,6 +1,6 @@
 <template>
 <section>
-  <div class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="zoom-in">
+  <div id="about" class="mx-auto max-w-screen-2xl px-4 py-24 sm:px-6 lg:px-8" data-aos="zoom-in">
     <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div class="relative z-10 lg:py-16">
         <div class="relative h-64 sm:h-80 lg:h-full">
@@ -46,62 +46,115 @@
 </script>
 
 <style  scoped>
-.button-effect {
-  overflow: hidden;
-  -webkit-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
-  min-width: 150px;
-  height: 50px;
-  display: inline-block;
-  border: none;
-  background: #0C4A6E;
-  color: #fff;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 15px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 1.5px;
-  font-size: 13px;
-  cursor: pointer;
+/* .button-effect {
+    overflow: hidden;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    min-width: 150px;
+    height: 50px;
+    display: inline-block;
+    border: none;
+    background: #0C4A6E;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .button-effect::before,
+  .button-effect::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 100%;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    border-radius: 1rem;
+  }
+  .button-effect::before {
+    background: #93b5ea;
+  }
+  .button-effect::after {
+    background: #FDBA74;
+  }
+  
+  .button-effect:hover::before,
+  .button-effect:hover::after {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    border-radius: 1rem;
+  }
+  .button-effect:hover::after {
+    -webkit-transition-delay: 0.175s;
+    -o-transition-delay: 0.175s;
+    transition-delay: 0.175s;
+    border-radius: 1rem;
+  }
+  .button-effect:hover{
+    border-radius: 1rem;
+  } */
+
+  a {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #eee;
+    color: #FFF;
+    height: 2.75rem;
+    width: 10em;
+    line-height: 2.75rem;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.5s all;
+    overflow: hidden;
+    margin: 53px 20px;
 }
 
-.button-effect::before,
-.button-effect::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  bottom: 100%;
-  left: 0;
-  z-index: -1;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  -o-transition: transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
-.button-effect::before {
-  background: #93b5ea;
-}
-.button-effect::after {
-  background: #FDBA74;
+a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    /*    background: #F00;*/
+    z-index: -1;
+    transition: 1s;
+    border-style: solid;
+    border-color: #0C4A6E;
+    border-width: 80px 100px;
+    transform: rotate(360deg);
+    transform-origin: top left
 }
 
-.button-effect:hover::before,
-.button-effect:hover::after {
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
+a:hover:before {
+    border-color: #FDBA74;
+    transform: rotate(40deg)
 }
-.button-effect:hover::after {
-  -webkit-transition-delay: 0.175s;
-  -o-transition-delay: 0.175s;
-  transition-delay: 0.175s;
+
+a:hover {
+    color: #fff;
+    transition: 0.5s;
+    transition-delay: 0.3s;
 }
 </style>

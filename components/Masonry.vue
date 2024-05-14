@@ -129,13 +129,13 @@
                </div>
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-                <div class="capMasory flex justify-center">
-                    <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
-                    </span>
-                </div>
-               </div>
+                <a
+            href="#"
+            class="mt-8 inline-block rounded border border-sky-600 bg-sky-900 px-12 py-3 text-sm font-medium text-white hover:bg-white hover:text-sky-900 focus:outline-none focus:ring active:text-sky-500 lg:tracking-widest cta"
+          >
+            View All
+          </a>
+           </div>
         </div>
     </div>
 </div>
@@ -173,5 +173,53 @@
 .masnoryItem:hover .capMasory{
 
     transform: translateY(0);
+}
+
+.cta {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #eee;
+    color: #FFF;
+    height: 2.75rem;
+    width: 10em;
+    line-height: 2.75rem;
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.5s all;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+}
+
+.cta:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    /*    background: #F00;*/
+    z-index: -1;
+    transition: 1s;
+    border-style: solid;
+    border-color: #0C4A6E;
+    border-width: 80px 100px;
+    transform: rotate(360deg);
+    transform-origin: top left
+}
+
+.cta:hover:before {
+    border-color: #FDBA74;
+    transform: rotate(40deg)
+}
+
+.cta:hover {
+    color: #fff;
+    transition: 0.5s;
+    transition-delay: 0.3s;
 }
 </style>
